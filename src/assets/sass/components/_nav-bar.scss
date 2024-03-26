@@ -1,0 +1,31 @@
+.primary-nav{
+    background-color: var(--secondary-color);
+    height: 100px;
+    & > div{
+        height: 100%;
+    }
+    &__left{
+        width: 35%;
+    }
+    &__center{
+        width: 30%;
+        height: max-content;
+        max-height: 165px;
+        width: auto;
+        background: linear-gradient(180deg, var(--secondary-color) 65%, #BD550020 100%);
+        border-radius: 50%;
+        img{
+            height: auto;
+            max-height: 148px;
+        }
+    }
+    &__right{
+        width: 35%;
+    }
+    a{
+        width: 30%;
+        font-size: 24px;
+        color: black;
+        text-align: center;
+    }
+}

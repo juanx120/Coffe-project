@@ -1,5 +1,6 @@
-@use './assets/sass/variables';
-@use './assets/sass/mixins';
-
 /*base*/
+@use './assets/sass/variables';
 @use './assets/sass/base';
+
+/*Components*/
+@use './assets/sass/components/nav-bar'
