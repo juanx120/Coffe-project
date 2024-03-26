@@ -10,7 +10,7 @@ export function NavBar (){
                 </div>
                 <div className="primary-nav__center">
                     <a href="/">
-                        <img src="./src/assets/images/de-la-mata-a-la-taza-trasparente.png" alt="" />
+                        <img src="/images/de-la-mata-a-la-taza-trasparente.png" alt="page logo image" />
                     </a>
                 </div>
                 <div className="primary-nav__right flex justify-around aling-center">
