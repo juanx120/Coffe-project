@@ -1,6 +1,10 @@
 .primary-nav{
     background-color: var(--secondary-color);
     height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 999;
     & > div{
         height: 100%;
     }
@@ -12,7 +16,7 @@
         height: max-content;
         max-height: 165px;
         width: auto;
-        background: linear-gradient(180deg, var(--secondary-color) 65%, #BD550020 100%);
+        background: linear-gradient(180deg, var(--secondary-color) 65%, #BD550030 100%);
         border-radius: 50%;
         img{
             height: auto;

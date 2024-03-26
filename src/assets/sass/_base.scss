@@ -2,12 +2,21 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    width: 100%;
 }
-h1, h2,
+h1{
+    font-family: var(--primary-font);
+    font-size: 48px;
+    text-transform: uppercase;
+    color: antiquewhite;
+    font-weight: bold;
+}
+h2,
 h3, h4,
 a, p,
 span{
     font-family: var(--primary-font);
+    font-weight: normal;
 }
 li{
     list-style: none;
