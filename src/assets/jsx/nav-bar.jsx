@@ -1,5 +1,3 @@
-
-
 export function NavBar (){
     return(
         <nav className="primary-nav">

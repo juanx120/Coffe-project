@@ -1,9 +1,6 @@
-/* Importar variables */
-@use './assets/sass/variables' as *;
-
 /* Importar estilos base */
-@use './assets/sass/base';
+@import './assets/sass/base';
 
 /* Importar componentes */
-@use './assets/sass/components/nav-bar';
-@use './assets/sass/components/hero-image';
+@import './assets/sass/components/nav-bar';
+@import './assets/sass/components/hero-image';
