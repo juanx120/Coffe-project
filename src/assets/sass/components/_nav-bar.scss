@@ -1,5 +1,5 @@
 .primary-nav{
-    background-color: $secondary-color;
+    background: linear-gradient(90deg,#BD550020 0%, $secondary-color 25%,  $secondary-color 75%, #BD550020 100%);;
     height: 100px;
     width: 100%;
     position: fixed;
