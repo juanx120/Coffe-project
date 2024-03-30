@@ -4,10 +4,25 @@
 $primary-font : "Montserrat", sans-serif;
 $secondary-font : "Permanent Marker", cursive;
 $primary-color: #E4BC99;
-$secondary-color: #ff9252;
+$secondary-color: #BD5500;
+$tertiary-color: #5E240E;
+$quaternary-color: #3D0F00;
+$quinary-color: #015700;
+$senary-color: #0F2501;
+
+$beige-color: #F1EBE5;
+
+$break-l: 1440px;
+$break-m: 1000px;
+$break-s: 600px;
+$break-xs: 300px;
 
 @mixin CenterXY(){
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+
+@mixin buttons($bg){
+    
 }

@@ -1,0 +1,41 @@
+.single-quad{
+    min-height: 700px;
+    background-color: $primary-color;
+    &__container{
+        height: max-content;
+    }
+    &__left{
+        width: 50%;
+        &-image{
+            height: 500px;
+            width: 500px;
+            overflow: hidden;
+            margin: 0 auto;
+            img{
+                width: auto;
+                height: 1200px;
+                object-fit: cover;
+                position: relative;
+                right: 282%;
+                bottom: 83%;
+            }
+        }
+    }
+    &__right{
+        width: 40%;
+        height: 400px;
+        text-align: center;
+        p{
+            font-size: 20px;
+            span{
+                font-weight: bold;
+            }
+        }
+    }
+    &:nth-child(even){
+        background-color: $beige-color;
+        & > div{
+            flex-direction: row-reverse;
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "index":{
+        "intro_content":{
+            "title" : "De la mata a la taza!",
+            "image" : "/images/DSC00934.JPG",
+            "alt-image": "foto matas de cafe de una finca"
+        },
+        "quad_1":{
+            "bg-color": "orange",
+            "title" : "De la mata a la taza",
+            "image" : "/images/panoramic-finca.JPG",
+            "alt-image": "",
+            "copy" : "Visita la Villa las Marias, donde podras conocer de manera virtual con fotos y videos en 360° el proceso por el virtual con fotos y videos en 360° el proceso por el que pasa el cafe “de la mata a la taza”",
+            "btn_label" : "vive la experiencia",
+            "btn_href" : "Foto panoramica de la finca"
+        },
+        "quad_2":{
+            "title" : "Conoce sobre el cafe",
+            "image" : "",
+            "alt-image": "",
+            "copy" : "Se estima que casi un <span>90%</span> de los colombianos consumen cafe, pero menos de la mitad saben de donde viene y las diferentes formas de consumo de este producto",
+            "btn_label" : "Conoce mas",
+            "btn_href" : ""
+        },
+        "quad_3":{
+            "title" : "Conoce sobre las herramientas",
+            "image" : "",
+            "alt-image": "",
+            "copy" : "Conoce de manera interactiva las herramientas que se usan para todo el proceso del cafe, desde que se cultiva hasta que se empaca",
+            "btn_label" : "Ver Herramientas",
+            "btn_href" : ""
+        }
+    }
+}

@@ -13,7 +13,10 @@ h1{
     color: antiquewhite;
     font-weight: bold;
 }
-h2,
+h2{
+    font-size: 48px;
+    font-family: $secondary-font;
+}
 h3, h4,
 a, p,
 span{
@@ -34,6 +37,9 @@ button{
     max-width: 1300px;
     width: auto;
     margin: 0 auto;
+}
+.display-none{
+    display: none;
 }
 .flex{
     display: flex;
