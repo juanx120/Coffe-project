@@ -6,6 +6,7 @@ import { NavBar } from './components/nav-bar'
 import { HeroImage } from './components/hero-image'
 import { SingleQuad } from './components/single-quad'
 import { NSwiper } from './components/swiper'
+import { FooterC } from './components/footer'
 
 console.log(data.index.intro_content.title);
 
@@ -15,12 +16,12 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <HeroImage 
       title={data.index.intro_content.title} 
       srcImage={data.index.intro_content.image} 
-      altImage={data.index.intro_content['alt-image']} 
+      altImage={data.index.intro_content.alt_image} 
     />
     <SingleQuad
-      lista={data.index['single-quad']}
+      lista={data.index.single_quad}
     />
-    <NSwiper
-    />
+    <NSwiper />
+    <FooterC />
   </>
 );

@@ -3,9 +3,9 @@
         "intro_content":{
             "title" : "De la mata a la taza!",
             "image" : "/images/DSC00934.JPG",
-            "alt-image": "foto matas de cafe de una finca"
+            "alt_image": "foto matas de cafe de una finca"
         },
-        "single-quad": [
+        "single_quad": [
             {
                 "bg_color": "orange",
                 "title" : "De la mata a la taza",
